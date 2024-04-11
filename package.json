@@ -1,0 +1,53 @@
+{
+  "name": "walletconnect-modal",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run build --ws --if-present",
+    "dev": "npm run dev --ws --if-present",
+    "lab": "npm run dev --w=laboratory",
+    "lint": "eslint .",
+    "prettier": "prettier --check .",
+    "typecheck": "npm run typecheck --ws --if-present",
+    "new-version": "lerna version --no-git-tag-version --exact",
+    "pre-publish": "npm run lint; npm run typecheck; npm run prettier; npm run new-version; npm install; npm run build;",
+    "publish:latest": "lerna exec -- npm publish --no-private --access public --tag latest",
+    "publish:canary": "lerna exec -- npm publish --no-private --access public --tag canary",
+    "clean": "rm -rf `find . -type d -name node_modules -o -name dist -o -name .next -o -name out`; rm package-lock.json"
+  },
+  "workspaces": [
+    "packages/modal-core",
+    "packages/modal-ui",
+    "projects/modal",
+    "projects/modal-auth-html",
+    "projects/modal-auth-react",
+    "projects/modal-sign-html",
+    "projects/modal-sign-react",
+    "laboratory"
+  ],
+  "devDependencies": {
+    "@types/node": "20.6.0",
+    "@typescript-eslint/eslint-plugin": "6.6.0",
+    "@typescript-eslint/parser": "6.6.0",
+    "@rollup/plugin-replace": "5.0.2",
+    "@rollup/plugin-commonjs": "25.0.4",
+    "@rollup/plugin-node-resolve": "15.2.1",
+    "@rollup/plugin-json": "6.0.0",
+    "rollup-plugin-polyfill-node": "0.12.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "esbuild": "0.17.9",
+    "eslint": "8.49.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "lerna": "7.2.0",
+    "prettier": "3.0.3",
+    "rollup": "3.29.1",
+    "rollup-plugin-esbuild": "5.0.0",
+    "rollup-plugin-minify-html-literals": "1.2.6",
+    "rollup-plugin-lit-css": "4.0.1",
+    "typescript": "5.2.2"
+  }
+}
