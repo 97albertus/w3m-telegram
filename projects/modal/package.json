@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/modal",
+  "name": "@97ablertus/modal",
   "version": "2.6.2",
   "main": "dist/index.js",
   "unpkg": "dist/cdn/bundle.js",
@@ -18,8 +18,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@walletconnect/modal-core": "2.6.2",
-    "@walletconnect/modal-ui": "2.6.2"
+    "@97ablertus/modal-core": "2.6.2",
+    "@97ablertus/modal-ui": "2.6.2"
   },
   "keywords": [
     "web3",
@@ -30,14 +30,14 @@
     "qrcode",
     "walletconnect"
   ],
-  "author": "WalletConnect <walletconnect.com>",
+  "author": "97albertus <github.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/walletconnect/modal",
+  "homepage": "https://github.com/97albertus/w3m-telegram",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/walletconnect/modal.git"
+    "url": "git+https://github.com/97albertus/w3m-telegram.git"
   },
   "bugs": {
-    "url": "https://github.com/walletconnect/modal/issues"
+    "url": "https://github.com/97albertus/w3m-telegram/issues"
   }
 }

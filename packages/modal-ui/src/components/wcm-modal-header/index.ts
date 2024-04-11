@@ -1,4 +1,4 @@
-import { RouterCtrl } from '@walletconnect/modal-core'
+import { RouterCtrl } from '@97albertus/modal-core'
 import type { TemplateResult } from 'lit'
 import { html, LitElement } from 'lit'
 import { customElement, property } from 'lit/decorators.js'

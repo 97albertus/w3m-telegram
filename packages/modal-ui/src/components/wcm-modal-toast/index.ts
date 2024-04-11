@@ -1,4 +1,4 @@
-import { ToastCtrl } from '@walletconnect/modal-core'
+import { ToastCtrl } from '@97albertus/modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'

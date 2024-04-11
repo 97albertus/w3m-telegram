@@ -1,4 +1,4 @@
-import type { WalletData } from '@walletconnect/modal-core'
+import type { WalletData } from '@97albertus/modal-core'
 import { html } from 'lit'
 import { ifDefined } from 'lit/directives/if-defined.js'
 import { DataUtil } from './DataUtil'

@@ -1,5 +1,5 @@
-import type { Listing } from '@walletconnect/modal-core'
-import { CoreUtil, ExplorerCtrl, OptionsCtrl, ToastCtrl } from '@walletconnect/modal-core'
+import type { Listing } from '@97albertus/modal-core'
+import { CoreUtil, ExplorerCtrl, OptionsCtrl, ToastCtrl } from '@97albertus/modal-core'
 import { LitElement, html } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'

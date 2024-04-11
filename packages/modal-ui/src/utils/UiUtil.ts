@@ -1,4 +1,4 @@
-import type { WalletData } from '@walletconnect/modal-core'
+import type { WalletData } from '@97albertus/modal-core'
 import {
   ConfigCtrl,
   CoreUtil,
@@ -6,7 +6,7 @@ import {
   OptionsCtrl,
   RouterCtrl,
   ToastCtrl
-} from '@walletconnect/modal-core'
+} from '@97albertus/modal-core'
 import type { LitElement } from 'lit'
 
 export const UiUtil = {
@@ -106,10 +106,10 @@ export const UiUtil = {
       CoreUtil.setWalletConnectAndroidDeepLink(walletConnectUri)
       // CoreUtil.openHref(walletConnectUri, '_self')
       const isInTGWebApp =
-      Object.hasOwn(window, 'TelegramWebviewProxy') || Object.hasOwn(window, 'Telegram')
+        Object.hasOwn(window, 'TelegramWebviewProxy') || Object.hasOwn(window, 'Telegram')
 
-    const target = isInTGWebApp ? '_blank' : '_self'
-    CoreUtil.openHref(walletConnectUri, target)
+      const target = isInTGWebApp ? '_blank' : '_self'
+      CoreUtil.openHref(walletConnectUri, target)
     }
   },
 

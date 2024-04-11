@@ -1,4 +1,4 @@
-import { CoreUtil, OptionsCtrl } from '@walletconnect/modal-core'
+import { CoreUtil, OptionsCtrl } from '@97albertus/modal-core'
 import { LitElement, html } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'

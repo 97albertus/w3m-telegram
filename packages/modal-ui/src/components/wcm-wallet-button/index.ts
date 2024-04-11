@@ -1,4 +1,4 @@
-import { EventsCtrl } from '@walletconnect/modal-core'
+import { EventsCtrl } from '@97albertus/modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'

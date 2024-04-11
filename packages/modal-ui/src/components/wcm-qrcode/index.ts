@@ -1,4 +1,4 @@
-import { ThemeCtrl } from '@walletconnect/modal-core'
+import { ThemeCtrl } from '@97albertus/modal-core'
 import { html, LitElement, svg } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'

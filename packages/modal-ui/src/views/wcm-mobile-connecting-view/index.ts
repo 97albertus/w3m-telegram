@@ -1,4 +1,4 @@
-import { CoreUtil, OptionsCtrl } from '@walletconnect/modal-core'
+import { CoreUtil, OptionsCtrl } from '@97albertus/modal-core'
 import { LitElement, html } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
@@ -27,7 +27,8 @@ export class WcmMobileConnectingView extends LitElement {
     const nativeUrl = mobile?.native
     const universalUrl = mobile?.universal
 
-    const isInTGWebApp = Object.hasOwn(window, 'TelegramWebviewProxy') || Object.hasOwn(window, 'Telegram')
+    const isInTGWebApp =
+      Object.hasOwn(window, 'TelegramWebviewProxy') || Object.hasOwn(window, 'Telegram')
 
     let href = ''
     if (nativeUrl && !forceUniversalUrl && !isInTGWebApp) {
@@ -42,7 +43,7 @@ export class WcmMobileConnectingView extends LitElement {
     if (isInTGWebApp) {
       CoreUtil.openHref(href, '_blank')
     } else {
-    CoreUtil.openHref(href, '_self')
+      CoreUtil.openHref(href, '_self')
     }
   }
 

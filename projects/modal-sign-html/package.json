@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/modal-sign-html",
+  "name": "@97albertus/modal-sign-html",
   "version": "2.6.2",
   "main": "dist/index.js",
   "unpkg": "dist/cdn/bundle.js",
@@ -18,8 +18,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@walletconnect/modal": "2.6.2",
-    "@walletconnect/sign-client": "2.10.0"
+    "@97albertus/modal": "2.6.2",
+    "@97albertus/sign-client": "2.10.0"
   },
   "keywords": [
     "web3",
@@ -29,14 +29,14 @@
     "sign",
     "html"
   ],
-  "author": "WalletConnect <walletconnect.com>",
+  "author": "97albertus <github.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/walletconnect/modal",
+  "homepage": "https://github.com/97albertus/w3m-telegram",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/walletconnect/modal.git"
+    "url": "git+https://github.com/97albertus/w3m-telegram.git"
   },
   "bugs": {
-    "url": "https://github.com/walletconnect/modal/issues"
+    "url": "https://github.com/97albertus/w3m-telegram/issues"
   }
 }

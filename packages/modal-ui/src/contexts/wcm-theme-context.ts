@@ -1,4 +1,4 @@
-import { ThemeCtrl } from '@walletconnect/modal-core'
+import { ThemeCtrl } from '@97albertus/modal-core'
 import { LitElement } from 'lit'
 import { customElement } from 'lit/decorators.js'
 import { ThemeUtil } from '../utils/ThemeUtil'
