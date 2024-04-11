@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import type { WalletConnectModalConfig } from '@walletconnect/modal'
-import { WalletConnectModal } from '@walletconnect/modal'
+import type { WalletConnectModalConfig } from '@97albertus/modal'
+import { WalletConnectModal } from '@97albertus/modal'
 import SignClient from '@walletconnect/sign-client'
 
 // -- Types ----------------------------------------------------------------

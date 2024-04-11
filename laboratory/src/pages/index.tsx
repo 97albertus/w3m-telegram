@@ -40,7 +40,7 @@ const modalCards = [
     description: 'Ethereum Provider playground',
     link: '/with-ethereum-provider',
     color: 'primary',
-    libraries: ['@walletconnect/ethereum-provider', '@walletconnect/modal']
+    libraries: ['@walletconnect/ethereum-provider', '@97albertus/modal']
   }
 ] as const
 

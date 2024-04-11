@@ -1,5 +1,5 @@
-import type { ConfigCtrlState, ThemeCtrlState } from '@walletconnect/modal-core'
-import { ConfigCtrl, ModalCtrl, OptionsCtrl, ThemeCtrl } from '@walletconnect/modal-core'
+import type { ConfigCtrlState, ThemeCtrlState } from '@97albertus/modal-core'
+import { ConfigCtrl, ModalCtrl, OptionsCtrl, ThemeCtrl } from '@97albertus/modal-core'
 
 /**
  * Types
@@ -18,7 +18,7 @@ export class WalletConnectModal {
 
   private async initUi() {
     if (typeof window !== 'undefined') {
-      await import('@walletconnect/modal-ui')
+      await import('@97albertus/modal-ui')
       const modal = document.createElement('wcm-modal')
       document.body.insertAdjacentElement('beforeend', modal)
       OptionsCtrl.setIsUiLoaded(true)

@@ -1,6 +1,6 @@
 {
   "name": "@97albertus/modal-auth-react",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "main": "dist/index.js",
   "type": "module",
   "types": "dist/_types/index.d.ts",
@@ -17,7 +17,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@97albertus/modal-auth-html": "2.6.2"
+    "@97albertus/modal-auth-html": "2.6.3"
   },
   "peerDependencies": {
     "react": ">=17",

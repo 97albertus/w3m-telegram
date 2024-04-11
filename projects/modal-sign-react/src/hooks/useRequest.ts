@@ -1,4 +1,4 @@
-import type { WalletConnectModalSignRequestArguments } from '@walletconnect/modal-sign-html'
+import type { WalletConnectModalSignRequestArguments } from '@97albertus/modal-sign-html'
 import { getWalletConnectModalSignClient } from '../client'
 import { useAsyncAction } from './_useAsyncAction'
 

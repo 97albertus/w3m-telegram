@@ -2,7 +2,7 @@
 
 // Only required within the scope of this monorepo
 const nextConfig = {
-  // transpilePackages: ['@walletconnect/modal-ui', '@walletconnect/modal-core'],
+  // transpilePackages: ['@97albertus/modal-ui', '@97albertus/modal-core'],
   typescript: {
     ignoreBuildErrors: true
   },

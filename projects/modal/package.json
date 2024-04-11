@@ -1,6 +1,6 @@
 {
-  "name": "@97ablertus/modal",
-  "version": "2.6.2",
+  "name": "@97albertus/modal",
+  "version": "2.6.3",
   "main": "dist/index.js",
   "unpkg": "dist/cdn/bundle.js",
   "type": "module",
@@ -18,8 +18,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@97ablertus/modal-core": "2.6.2",
-    "@97ablertus/modal-ui": "2.6.2"
+    "@97albertus/modal-core": "2.6.3",
+    "@97albertus/modal-ui": "2.6.3"
   },
   "keywords": [
     "web3",

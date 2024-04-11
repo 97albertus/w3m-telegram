@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 
+import type { WalletConnectModalConfig } from '@97albertus/modal'
+import { WalletConnectModal } from '@97albertus/modal'
 import type { AuthClientTypes } from '@walletconnect/auth-client'
 import { AuthClient, generateNonce } from '@walletconnect/auth-client'
-import type { WalletConnectModalConfig } from '@walletconnect/modal'
-import { WalletConnectModal } from '@walletconnect/modal'
 
 // -- Types ----------------------------------------------------------------
 export interface WalletConnectModalAuthOptions {

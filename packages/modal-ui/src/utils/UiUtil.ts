@@ -108,6 +108,7 @@ export const UiUtil = {
       const isInTGWebApp =
         Object.hasOwn(window, 'TelegramWebviewProxy') || Object.hasOwn(window, 'Telegram')
 
+      console.info('isInTGWebApp - handleAndroidLinking', isInTGWebApp)
       const target = isInTGWebApp ? '_blank' : '_self'
       CoreUtil.openHref(walletConnectUri, target)
     }

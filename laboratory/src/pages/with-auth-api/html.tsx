@@ -1,5 +1,5 @@
+import { WalletConnectModalAuth } from '@97albertus/modal-auth-html'
 import { Button, Card } from '@nextui-org/react'
-import { WalletConnectModalAuth } from '@walletconnect/modal-auth-html'
 import { NotificationCtrl } from '../../controllers/NotificationCtrl'
 import { DEMO_METADATA, DEMO_STATEMENT } from '../../data/Constants'
 import { getProjectId, getTheme } from '../../utilities/EnvUtil'

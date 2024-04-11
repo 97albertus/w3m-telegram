@@ -1,11 +1,11 @@
-import { Button, Card, Loading, Spacer } from '@nextui-org/react'
 import {
   WalletConnectModalSign,
   useConnect,
   useDisconnect,
   useRequest,
   useSession
-} from '@walletconnect/modal-sign-react'
+} from '@97albertus/modal-sign-react'
+import { Button, Card, Loading, Spacer } from '@nextui-org/react'
 import { getAddressFromAccount, getSdkError } from '@walletconnect/utils'
 import { useState } from 'react'
 import { NotificationCtrl } from '../../controllers/NotificationCtrl'
@@ -66,11 +66,11 @@ export default function WithSignReactPage() {
     <>
       <Card css={{ maxWidth: '400px', margin: '100px auto' }} variant="bordered">
         <Card.Body css={{ justifyContent: 'center', alignItems: 'center', height: '200px' }}>
+          <Button shadow color="primary" onPress={onSignMessage}>
+            Sign Message
+          </Button>
           {session ? (
             <>
-              <Button shadow color="primary" onPress={onSignMessage}>
-                Sign Message
-              </Button>
               <Spacer />
               <Button shadow color="error" onPress={onDisconnect} disabled={disconnecting}>
                 {disconnecting ? <Loading size="xs" color={'white'} /> : 'Disconnect'}

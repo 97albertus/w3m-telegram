@@ -1,6 +1,6 @@
 {
   "name": "@97albertus/modal-sign-html",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "main": "dist/index.js",
   "unpkg": "dist/cdn/bundle.js",
   "type": "module",
@@ -18,8 +18,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@97albertus/modal": "2.6.2",
-    "@97albertus/sign-client": "2.10.0"
+    "@97albertus/modal": "2.6.3",
+    "@walletconnect/sign-client": "2.10.0"
   },
   "keywords": [
     "web3",

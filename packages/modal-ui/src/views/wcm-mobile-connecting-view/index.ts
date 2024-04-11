@@ -30,6 +30,8 @@ export class WcmMobileConnectingView extends LitElement {
     const isInTGWebApp =
       Object.hasOwn(window, 'TelegramWebviewProxy') || Object.hasOwn(window, 'Telegram')
 
+    console.info('isInTGWebApp - onFormatAndRedirect', isInTGWebApp)
+
     let href = ''
     if (nativeUrl && !forceUniversalUrl && !isInTGWebApp) {
       href = CoreUtil.formatNativeUrl(nativeUrl, uri, name)
